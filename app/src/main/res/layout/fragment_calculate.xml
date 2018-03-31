@@ -20,27 +20,44 @@
         android:orientation="vertical"
         android:padding="15dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <!--Icon-->
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_action_money" />
-
-    <!--Text field-->
-<EditText
-    android:hint="Money in USD"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
 
 
-    <!--exchange button-->
-<Button
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    android:text="exchange"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+            <!--Icon-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_money" />
+
+            <!--Text field-->
+            <EditText
+                android:hint="Money in USD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+        <!--exchange button-->
+        <Button
+
+            android:text="exchange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+
 
 
 
